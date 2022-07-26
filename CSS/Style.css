@@ -1,0 +1,232 @@
+#Main-box{
+    display: inline-flex;
+    gap: 10px;
+    border: 5px solid   green;
+    width: 1500px;
+    height: 1200px;
+}
+#box1{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    position: absolute ;
+    top: 500px;
+    left: 700px;
+}
+#box2{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    position: relative;
+    left: 100px;
+    top: 150px;
+}
+#box3{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    position: sticky;
+    left: 50px;
+    top: 70px;
+}
+#box4{
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    position: static;
+    left: 150px;
+    right: 80px;
+}
+#box5{
+    width: 300px;
+    height: 300px;
+    background-color: grey;
+    position: fixed;
+    top: 100px;
+    left: 50px;
+}
+#Main-box2{
+    display: inline-flex;
+    gap: 10px;
+    border: 5px solid   green;
+    width: 1500px;
+    height: 1200px;
+}
+#Saurav{
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    animation: linear 10s Firstanimation;
+}
+
+@keyframes Firstanimation{
+    /* form{
+        width: 100px;
+        height: 50px;
+        background-color: aqua;
+    }
+    to{
+        width: 1200px;
+        height: 50px;
+        background-color: brown;
+    } */
+    0%{
+        width: 100px;
+        height: 50px;
+        background-color: red;      
+    }
+    10%{
+        width: 200px;
+        height: 50px;
+        background-color: yellow;
+    }
+    20%{
+        width: 300px;
+        height: 50px;
+        background-color: green;
+    }
+    30%{
+        width: 400px;
+        height: 50px;
+        background-color: aqua;
+    }
+    40%{
+        width: 500px;
+        height: 50px;
+        background-color: blue;
+    }
+    50%{
+        width: 600px;
+        height: 50px;
+        background-color: purple;
+    }
+    60%{
+        width: 700px;
+        height: 50px;
+        background-color: pink;
+    }
+    70%{
+        width: 800px;
+        height: 50px;
+        background-color: violet;
+    }
+    80%{
+        width: 900px;
+        height: 50px;
+        background-color: black;
+    }
+    90%{
+        width: 1000px;
+        height: 50px;
+        background-color: darkgrey;
+    }
+    100%{
+        width: 1100px;
+        height: 50px;
+        background-color: yellowgreen;
+    }
+    
+}
+#test{
+    width: 1200px;
+    height: 300px;
+    display: inline-flex;
+    gap: 10px;
+}
+
+@keyframes Rotate{
+   from{
+    transform: rotate(0deg);
+    
+
+   }
+   to{
+    transform: rotate(360deg);
+   }
+    
+}
+#a{
+    width: 300px;
+    height: 300px;
+    animation: linear 10s Rotate;
+    background-color: blue;
+    
+}
+#b{
+    width: 300px;
+    height: 300px;
+    animation: linear 10s Rotate;
+    background-color: green;
+}
+#c{
+    width: 300px;
+    height: 300px;
+    animation: linear 10s Rotate;
+    background-color: red;
+    position: fixed;
+    top: 150px;
+    left: 150px;
+}
+#test2{
+    width: 1200px;
+    height: 1800px;
+    display: inline-flex;
+    gap: 10px;
+}
+#d{
+    width: 300px;
+    height: 300px;
+    animation: linear 10s Rotate;
+    background-color: yellow;
+    
+}
+#e{
+    width: 300px;
+    height: 300px;
+    animation: linear 10s Rotate;
+    background-color: grey;
+}
+#f{
+    width: 300px;
+    height: 300px;
+    animation: linear 10s Rotate;
+    background-color: lightcoral;
+    
+}
+#g{
+    width: 300px;
+    height: 300px;
+    animation: linear 10s Rotate;
+    background-color: navajowhite;
+}
+#h{
+    width: 300px;
+    height: 300px;
+    animation: linear 10s Rotate;
+    background-color: purple;
+    position: fixed;
+    top: 150px;
+    left: 460px;
+}
+#i{
+    width: 300px;
+    height: 300px;
+    animation: linear 10s Rotate;
+    background-color: pink;
+    position: fixed;
+    top: 150px;
+    left: 770px;
+}
+#j{
+    width: 300px;
+    height: 300px;
+    animation: linear 10s Rotate;
+    background-color: aqua;
+    
+}
+#k{
+    width: 300px;
+    height: 300px;
+    animation: linear 10s Rotate;
+    background-color: lavenderblush;
+}
